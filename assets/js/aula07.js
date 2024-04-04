@@ -32,6 +32,7 @@ formContato.addEventListener('submit', (event) => {
         msg.push(formContato.mensagem.value);
 
         gerarLista()
+        formContato.reset()
     }
 })
 
